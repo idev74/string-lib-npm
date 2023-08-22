@@ -32,7 +32,7 @@ function removeExtraSpaces(str) {
     return str.trim().replace(/\s+/g, ' ');
 }
 
-function kebobCase(str) {
+function kebabCase(str) {
     return str.replace(/\s+/g, '-').toLowerCase();
 }
 
@@ -89,7 +89,7 @@ console.log(allCaps('hello')); // "HELLO"
 console.log(capitalizeWords('hello world')); // "Hello World"
 console.log(capitalizeHeadline('the hello in for the world')); // "The Hello in for the World"
 console.log(removeExtraSpaces('   Hello   World   ')); // "Hello World"
-console.log(kebobCase('Hello World')); // "hello-world"
+console.log(kebabCase('Hello World')); // "hello-world"
 console.log(snakeCase('Hello World')); // "hello_world"
 console.log(camelCase('Hello World')); // "helloWorld"
 console.log(pascalCase('Hello World')); // "HelloWorld"
@@ -101,3 +101,18 @@ console.log(isEmpty('   ')); // true
 console.log(isEmpty(`\n 
     \t 
  \r   `)); // true
+
+ module.exports = {
+    capitalizeSentence,
+    allCaps,
+    capitalizeWords,
+    capitalizeHeadline,
+    removeExtraSpaces,
+    kebabCase,
+    snakeCase,
+    camelCase,
+    pascalCase,
+    shift,
+    makeHashTag,
+    isEmpty
+}
