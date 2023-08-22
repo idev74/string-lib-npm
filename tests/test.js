@@ -43,3 +43,15 @@ test('shift moves the first character of a string to the end', () => {
 test('makeHashTag returns the longest three words in a string as hashtags', () => {
     expect(strFunc.makeHashTag('a set of aquarium plants and snails for sale')).toBe('#aquarium #plants #snails');
 });
+
+test('isEmpty returns true if a string is empty or contains only whitespace', () => {
+    expect(strFunc.isEmpty('')).toBe(true);
+    expect(strFunc.isEmpty(' ')).toBe(true);
+    expect(strFunc.isEmpty('hello')).toBe(false);
+});
+
+test('isEmpty returns true if a string is empty except for spaces, line returns, or tabs', () => {
+    expect(strFunc.isEmpty(`\n
+        \t
+    \r   `)).toBe(true);
+});
