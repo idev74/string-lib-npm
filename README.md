@@ -2,6 +2,8 @@
 [![npm version](https://img.shields.io/npm/v/string-it-on.svg)](https://www.npmjs.com/package/string-it-on)
 [![npm downloads](https://img.shields.io/npm/dt/string-it-on.svg)](https://www.npmjs.com/package/string-it-on)
 
+[Live Here!](https://www.npmjs.com/package/string-it-on)
+
 #### A simple node module that performs string manipulation! This includes:
 - Capitalizing sentences
 - All caps
