@@ -1,5 +1,5 @@
 {
-  "name": "string-lib-npm",
+  "name": "string-it",
   "version": "1.0.0",
   "description": "string manipulation library",
   "main": "index.js",
