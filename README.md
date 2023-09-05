@@ -15,7 +15,7 @@
 - Testing if a string is empty!
 
 ### Output
-```
+```javascript
 capitalizeSentence('hello'); // "Hello"
 allCaps('hello'); // "HELLO"
 capitalizeWords('hello world'); // "Hello World"
